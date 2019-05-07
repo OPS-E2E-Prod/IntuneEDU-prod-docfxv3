@@ -1,5 +1,5 @@
 {
-  "build_entry_point": "docs",
+  "build_entry_point": [
     {
       "docset_name": "IntuneEDU-prod-docfxv3",
       "build_source_folder": "IntuneEDU",
@@ -41,5 +41,8 @@
     }
   },
   "need_generate_pdf": false,
-  "need_generate_intellisense": false
+  "need_generate_intellisense": false,
+  "docs_build_engine":{
+    "name": "docfx_v3"
+  }
 }
